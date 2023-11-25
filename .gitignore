@@ -1,0 +1,8 @@
+/.pytorch-training-venv/bin/*
+/.pytorch-training-venv/bin/*
+/.pytorch-training-venv/include/*
+/.pytorch-training-venv/lib/*
+/.pytorch-training-venv/share/*
+/.pytorch-training-venv/*
+
+__pycache__/
