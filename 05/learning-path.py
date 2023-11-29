@@ -22,7 +22,7 @@ for file in file_list:
     if file.exists():
         print(f"The file '{file}' exists.")
     else:
-        print(f"The file '{file}' dpes not exist.")
+        print(f"The file '{file}' does not exist.")
 
 # 作成したいディレクトリのパス
 dir_path = Path("./target_dir")
