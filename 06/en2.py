@@ -2,7 +2,7 @@ from PIL import Image
 from pathlib import Path
 from torchvision import transforms
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 from torch.utils.data import random_split
 
 class ImageTransform():
@@ -76,10 +76,10 @@ if __name__ == "__main__":
     print(f"Val dataset size: {len(val_dataset)}")
     
      # DataLoaderを作成
-    train_dataloader = torch.utils.data.DataLoader(
+    train_dataloader = DataLoader(
         train_dataset, batch_size=batch_size, shuffle=True)
 
-    val_dataloader = torch.utils.data.DataLoader(
+    val_dataloader = DataLoader(
         val_dataset, batch_size=batch_size, shuffle=False)
     
     print("===== problem3 =====")
