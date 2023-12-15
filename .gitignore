@@ -4,5 +4,6 @@
 /.pytorch-training-venv/lib/*
 /.pytorch-training-venv/share/*
 /.pytorch-training-venv/*
-
+/cifar-10-python.tar.gz
+/cifar-10-batches-py/*
 __pycache__/
